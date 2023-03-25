@@ -4,7 +4,7 @@ engine_override("\4E\4D\05\18");
 //	PURCHASE SPRITE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
-spriteset(spriteset_DIESEL_EMD_SD70ACE_purchase, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
+spriteset(spriteset_DIESEL_EMD_SD70ACE_MONOCOLOR_purchase, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
 	template_purchase(1, 64)
 }
 
@@ -24,7 +24,7 @@ spriteset(spriteset_DIESEL_EMD_SD70ACE_B_MONOCOLOR, "gfx/Diesel/DIESEL_EMD_SD70A
 
 
 //Switch for B-unit
-switch(FEAT_TRAINS, SELF, switch_DIESEL_EMD_SD70ACE_position, position_in_vehid_chain % 2) {
+switch(FEAT_TRAINS, SELF, switch_DIESEL_EMD_SD70ACE_MONOCOLOR_position, position_in_vehid_chain % 2) {
 	1: 	spriteset_DIESEL_EMD_SD70ACE_B_MONOCOLOR;
 		spriteset_DIESEL_EMD_SD70ACE_engine_MONOCOLOR;
 }
@@ -33,7 +33,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_EMD_SD70ACE_position, position_in_vehid_
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE) {
+item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE_MONOCOLOR) {
     property {
         name: 							string(STR_NAME_DIESEL_EMD_SD70ACE_MONOCOLOR);
 		
@@ -91,7 +91,9 @@ item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE) {
 	
 	graphics {
 		additional_text:	string(STR_TEXT_DIESEL_EMD_SD70ACE_MONOCOLOR);
-		purchase: 			spriteset_DIESEL_EMD_SD70ACE_purchase;
-							switch_DIESEL_EMD_SD70ACE_position;
+		purchase: 			spriteset_DIESEL_EMD_SD70ACE_MONOCOLOR_purchase;
+							switch_DIESEL_EMD_SD70ACE_MONOCOLOR_position;
+	}
+}
 	}
 }
