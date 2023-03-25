@@ -1,3 +1,4 @@
+engine_override("\4E\4D\05\18");
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 //	PURCHASE SPRITE
@@ -24,8 +25,8 @@ spriteset(spriteset_DIESEL_EMD_SD70ACE_B_MONOCOLOR, "gfx/Diesel/DIESEL_EMD_SD70A
 
 //Switch for B-unit
 switch(FEAT_TRAINS, SELF, switch_DIESEL_EMD_SD70ACE_position, position_in_vehid_chain % 2) {
-	1: 	spriteset_DIESEL_EMD_SD70ACE_B;
-		spriteset_DIESEL_EMD_SD70ACE_engine;
+	1: 	spriteset_DIESEL_EMD_SD70ACE_B_MONOCOLOR;
+		spriteset_DIESEL_EMD_SD70ACE_engine_MONOCOLOR;
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -81,7 +82,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE) {
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
 
-		variant_group:					2132;
+//		variant_group:					2132;
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -89,7 +90,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 	
 	graphics {
-		additional_text:	string(STR_TEXT_DIESEL_EMD_SD70ACE);
+		additional_text:	string(STR_TEXT_DIESEL_EMD_SD70ACE_MONOCOLOR);
 		purchase: 			spriteset_DIESEL_EMD_SD70ACE_purchase;
 							switch_DIESEL_EMD_SD70ACE_position;
 	}

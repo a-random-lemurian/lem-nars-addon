@@ -1,0 +1,4 @@
+disable_item(FEAT_TRAINS);
+#include "src/Code/header.pnml"
+#include "src/Code/templates.pnml"
+#include "src/Diesel/DIESEL_EMD_SD70ACE_MONOCOLOR.pnml"
