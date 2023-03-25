@@ -1,4 +1,4 @@
-﻿##grflangid 0x01
+##grflangid 0x01
 
 #	NBSP	non-breaking space	
 #	{	Display a left curly bracket. You write this as {{}. If you'd include it without surrounding it by { and } it'd be seen as the start of a tag and the rest of the string would be read as name of the tag.	
@@ -43,7 +43,7 @@
 # Friday	= WHITE
 # Saturday	= YELLOW
 
-STR_GRF_NAME            :{LTBLUE}Lemurian {ORANGE}NARS ADD-ON SET 2CC {WHITE} {GREEN}(STILL 218 Vehicles!)
+STR_GRF_NAME            :{LTBLUE}Lemurian {ORANGE}NARS ADD-ON SET 2CC {WHITE}
 STR_GRF_DESC            :{}{}{GREEN}Date: 2023-03-25{}{}{ORANGE}At the moment it's just an SD70ACe monocolor sprite, nothing more.
 STR_GRF_URL				:
 
