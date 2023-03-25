@@ -1,0 +1,139 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//Purchase templates
+//Engines
+template template_purchase(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x, y,  87, 12, -25, -8]
+}
+
+//Dualheaded Engines
+template template_purchase_dualheaded(x,y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [x	,  y,  87, 12, -11, -8]
+    [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+}
+
+//Wagons+coaches
+template template_purchase_wagon(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x, y,  63, 12, -15, -8]
+}
+
+//Unit wagons
+template template_purchase_wagon_special(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x, y,  63, 12, -25, -8]
+}
+
+template template_wagon_special(x,y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+	[x	,  y, 33, 12, -16,  -8]
+    [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+}
+
+/*
+ * The templates below are derived from the 2cc trainset.
+*/
+
+//MU back
+template template_2cc_engines_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -12]
+    [x+153, y, 22, 20,  -6, -12]
+    [x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -12]
+    [x+65 , y, 22, 20,  -6, -12]
+}
+
+//All engines and front+middle parts of MUs
+template template_2cc_engines_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -12]
+    [x+65 , y, 22, 20,  -6, -12]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -12]
+    [x+153, y, 22, 20,  -6, -12]
+}
+
+//Wagons+Coaches
+template template_2cc_wagons(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -12]
+    [x+65 , y, 22, 20,  -6, -12]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -12]
+    [x+153, y, 22, 20,  -6, -12]
+}
+
+//railbus and single unit metros
+template template_2cc_railbus_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -10]
+    [x+65 , y, 22, 20,  -6, -12]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -10]
+    [x+153, y, 22, 20,  -6, -12]	
+}
+
+//Special template for vehicles with length 12
+template template_2cc_L12(x, y) {
+//  [lft_x,    uppr_y,   width, height,   off_x,     off_y]
+    [x    , 		y,  	 8,     36,  	 -3, 	   -15]
+    [x+9  , 		y, 		30, 	26, 	-22, 	   -14]
+    [x+40 , 		y, 		48, 	16, 	-33, 	   -12]
+    [x+89 , 		y, 		30, 	26, 	-14, 	   -18]
+    [x+120, 		y, 		 8, 	36, 	 -3, 	   -20]
+    [x+129, 		y, 		30, 	26, 	-14, 	   -18]
+    [x+160, 		y, 		48, 	16, 	-16, 	   -12]
+    [x+209, 		y, 		30, 	26,      -4, 	   -13]
+}
+
+//Special template for empty spritesets (vehicles with length 10 use this)
+template template_empty_spriteset() {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+}
+
+spriteset(spriteset_empty) {
+	template_empty_spriteset()
+}
+
+#define EMPTY_SPRITESET spriteset_empty;
