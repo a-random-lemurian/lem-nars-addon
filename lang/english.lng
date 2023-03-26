@@ -74,3 +74,6 @@ STR_TEXT_DIESEL_EMD_SDP40_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage : 
 STR_NAME_DIESEL_GE_ES40DC_MONOCOLOR			:GE ES40DC (Diesel)
 STR_TEXT_DIESEL_GE_ES40DC_MONOCOLOR			:Livery : {GOLD}Monocolor {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}First in a series of environmentally friendly locomotives
 
+STR_NAME_DIESEL_EMD_SDP40_ALLBLACK			:EMD SD40 (Diesel)
+STR_TEXT_DIESEL_EMD_SD40_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Basically a turbo charged SD38
+
