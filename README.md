@@ -1,7 +1,8 @@
 # Lemurian NARS Addon 2CC
 
 No original locomotives, but it does offer a variety of liveries for some
-locomotives.
+locomotives, from fictional ones, to real-life railroads and even all-black
+paint schemes (SDP40).
 
 ## SD70ACe
 
