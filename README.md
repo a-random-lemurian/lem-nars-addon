@@ -4,7 +4,8 @@ No original locomotives, but it does offer a variety of liveries for some
 locomotives, from fictional ones, to real-life railroads and even all-black
 paint schemes (SDP40).
 
-## SD70ACe
+## Locomotives
+### SD70ACe
 
 ![](screenshot/sd70ace_fictional1_001.png)
 "Fictional 1" livery SD70ACe hauling cylindrical hoppers
