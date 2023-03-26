@@ -15,6 +15,10 @@ paint schemes (SDP40).
 ![](screenshot/sd70ace_fictional2_001.png)<br>
 "Fictional 2" livery SD70ACe. Primary color white, secondary color purple.
 
+### ES40DC
+![](screenshot/es40dc_monocolor_001.png)<br>
+"Monocolor" livery ES40DC in a rail yard.
+
 ## Copyright
 
 This NewGRF contains modified versions of sprites from the NARS Add-On
