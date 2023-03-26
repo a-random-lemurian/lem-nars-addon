@@ -1,3 +1,6 @@
 *.nml
 *.grf
 .nmlcache
+*.tar*
+lemnars
+custom_tags.txt
