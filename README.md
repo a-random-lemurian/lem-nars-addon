@@ -21,6 +21,9 @@ paint schemes (SDP40).
 ![](screenshot/sdp40_allblack_001.png)<br>
 SDP40 in a completely black paint scheme.
 
+### SD40
+![](screenshot/sd40_snimgreen_001.png)<br>
+Green SNIM locomotives hauling some iron ore through the desert. SD40 Generic 1, primary dark green, secondary yellow.
 
 ### ES40DC
 ![](screenshot/es40dc_monocolor_001.png)<br>
