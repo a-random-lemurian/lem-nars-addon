@@ -61,3 +61,7 @@ figure out how to code my own NML GRF's
 ```
 
 Sprites with custom liveries by Lemuria.
+
+<hr>
+
+![](screenshot/promotional.png)
