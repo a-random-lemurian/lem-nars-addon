@@ -1,6 +1,6 @@
 [< Back](./README.md)
 
-### 0.1.0 (2023-03-26)
+### 0.2.0 (2023-03-26)
 * Added three SD70ACe liveries:
    * Fictional 1 - red symbol between two white blobs
    * Fictional 2 - secondary color text & train number on primary color background
@@ -10,3 +10,6 @@
       * TODO: Put it back in 0.2.0
 * Added one SDP40 livery:
    * All Black - completely black background, no logos
+
+### 0.1.0 (2023-03-26)
+There is no 0.1.0 due to an unfortunate typo while uploading to BaNaNaS.
