@@ -5,7 +5,7 @@ engine_override("\4E\4D\05\18");
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
 spriteset(spriteset_DIESEL_EMD_SD70ACE_MONOCOLOR_purchase, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 87)
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -14,12 +14,12 @@ spriteset(spriteset_DIESEL_EMD_SD70ACE_MONOCOLOR_purchase, "gfx/Diesel/DIESEL_EM
 
 //Engine
 spriteset(spriteset_DIESEL_EMD_SD70ACE_engine_MONOCOLOR, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_2cc_engines_general(1, 83)
+	template_2cc_engines_general(1, 106)
 }
 
 //B-unit
 spriteset(spriteset_DIESEL_EMD_SD70ACE_B_MONOCOLOR, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_2cc_engines_general(1, 114)
+	template_2cc_engines_general(1, 137)
 }
 
 
@@ -104,7 +104,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE_MONOCOLOR) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
 spriteset(spriteset_DIESEL_EMD_SD70ACE_FICT1_purchase, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_purchase(1, 202)
+	template_purchase(1, 225)
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -113,12 +113,12 @@ spriteset(spriteset_DIESEL_EMD_SD70ACE_FICT1_purchase, "gfx/Diesel/DIESEL_EMD_SD
 
 //Engine
 spriteset(spriteset_DIESEL_EMD_SD70ACE_engine_FICT1, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_2cc_engines_general(1, 142)
+	template_2cc_engines_general(1, 165)
 }
 
 //B-unit
 spriteset(spriteset_DIESEL_EMD_SD70ACE_B_FICT1, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_2cc_engines_general(1, 173)
+	template_2cc_engines_general(1, 196)
 }
 
 //Switch for B-unit
@@ -201,7 +201,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE_FICT1) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
 spriteset(spriteset_DIESEL_EMD_SD70ACE_FICT2_purchase, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_purchase(1, 218)
+	template_purchase(1, 241)
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -210,12 +210,12 @@ spriteset(spriteset_DIESEL_EMD_SD70ACE_FICT2_purchase, "gfx/Diesel/DIESEL_EMD_SD
 
 //Engine
 spriteset(spriteset_DIESEL_EMD_SD70ACE_engine_FICT2, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_2cc_engines_general(1, 237)
+	template_2cc_engines_general(1, 260)
 }
 
 //B-unit
 spriteset(spriteset_DIESEL_EMD_SD70ACE_B_FICT2, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
-	template_2cc_engines_general(1, 268)
+	template_2cc_engines_general(1, 291)
 }
 
 //Switch for B-unit
