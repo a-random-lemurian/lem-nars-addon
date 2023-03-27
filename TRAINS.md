@@ -19,8 +19,14 @@ SDP40 in a completely black paint scheme.
 ![](screenshot/sd40_snimgreen_001.png)<br>
 Green SNIM locomotives hauling some iron ore through the desert. SD40 Generic 1, primary dark green, secondary yellow.
 
+![](screenshot/sd40_snimgreen_002.png)<br>
+Two more green SNIM locomotives.
+
 ### ES40DC
 ![](screenshot/es40dc_monocolor_001.png)<br>
 "Monocolor" livery ES40DC in a rail yard.
 
+### SD75i
+![](screenshot/sd75i_monocolor_001.png)<br>
+Monocolor SD75i running freight through a city
 
