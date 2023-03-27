@@ -3,6 +3,12 @@
 ### 0.3.0
 * Added one SD75I livery:
    * Monocolor - primary color background with white train number
+* ES40DC:
+   * Put the train number in white back on the monocolor livery
+* Added two SD40 liveries:
+   * All-Black - completely black background, no logos
+   * Generic 1: Secondary color blob on primary color background.
+      * Try yellow on dark green for an SNIM-like train.
 
 ### 0.2.0 (2023-03-26)
 * Added three SD70ACe liveries:
