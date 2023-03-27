@@ -1,5 +1,9 @@
 [< Back](./README.md)
 
+### 0.3.0
+* Added one SD75I livery:
+   * Monocolor - primary color background with white train number
+
 ### 0.2.0 (2023-03-26)
 * Added three SD70ACe liveries:
    * Fictional 1 - red symbol between two white blobs
