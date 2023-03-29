@@ -86,3 +86,6 @@ STR_TEXT_DIESEL_GMD_SD75I_MONOCOLOR			:Livery : {GOLD}Monocolor {}{BLACK}Usage :
 STR_NAME_DIESEL_GE_ES40DC_ALLBLACK			:GE ES40DC (Diesel)
 STR_TEXT_DIESEL_GE_ES40DC_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}First in a series of environmentally friendly locomotives
 
+
+STR_NAME_DIESEL_GE_ES40DC_FICT1			:GE ES40DC (Diesel)
+STR_TEXT_DIESEL_GE_ES40DC_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}First in a series of environmentally friendly locomotives
