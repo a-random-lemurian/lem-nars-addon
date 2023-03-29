@@ -5,6 +5,9 @@
    * Monocolor - primary color background with white train number
 * ES40DC:
    * Put the train number in white back on the monocolor livery
+   * Brought the Fictional 1 livery, originally from the SD70ACe, over
+     to the ES40DC
+   * Added All-Black livery to the ES40DC
 * Added two SD40 liveries:
    * All-Black - completely black background, no logos
    * Generic 1: Secondary color blob on primary color background.
