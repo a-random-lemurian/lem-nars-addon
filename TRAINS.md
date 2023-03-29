@@ -26,6 +26,9 @@ Two more green SNIM locomotives.
 ![](screenshot/es40dc_monocolor_001.png)<br>
 "Monocolor" livery ES40DC in a rail yard.
 
+![](screenshot/es40dc_fictional1_001.png)<br>
+"Fictional 1" livery ES40DC hauling refrigerated cars
+
 ### SD75i
 ![](screenshot/sd75i_monocolor_001.png)<br>
 Monocolor SD75i running freight through a city
