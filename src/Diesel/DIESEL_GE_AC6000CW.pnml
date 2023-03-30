@@ -4,7 +4,7 @@
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
 spriteset(spriteset_DIESEL_GE_AC6000CW_ALLBLACK_purchase, "gfx/Diesel/DIESEL_GE_AC6000CW.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 143)
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -13,12 +13,12 @@ spriteset(spriteset_DIESEL_GE_AC6000CW_ALLBLACK_purchase, "gfx/Diesel/DIESEL_GE_
 
 //Engine
 spriteset(spriteset_DIESEL_GE_AC6000CW_ALLBLACK_engine, "gfx/Diesel/DIESEL_GE_AC6000CW.png") {
-	template_2cc_engines_general(1, 1)
+	template_2cc_engines_general(1, 80)
 }
 
 //B-unit
 spriteset(spriteset_DIESEL_GE_AC6000CW_ALLBLACK_B, "gfx/Diesel/DIESEL_GE_AC6000CW.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 111)
 }
 
 //Switch for B-unit
