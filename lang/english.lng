@@ -92,3 +92,6 @@ STR_TEXT_DIESEL_GE_ES40DC_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  
 
 STR_NAME_DIESEL_GE_AC6000CW_ALLBLACK			:GE AC6000CW (Diesel)
 STR_TEXT_DIESEL_GE_AC6000CW_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}Second most powerful single unit diesel in N.America
+
+STR_NAME_DIESEL_GE_AC6000CW_FICT1			:GE AC6000CW (Diesel)
+STR_TEXT_DIESEL_GE_AC6000CW_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}Second most powerful single unit diesel in N.America
