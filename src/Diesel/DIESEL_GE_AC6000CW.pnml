@@ -112,7 +112,7 @@ spriteset(spriteset_DIESEL_GE_AC6000CW_FICT1_engine, "gfx/Diesel/DIESEL_GE_AC600
 
 //B-unit
 spriteset(spriteset_DIESEL_GE_AC6000CW_FICT1_B, "gfx/Diesel/DIESEL_GE_AC6000CW.png") {
-	template_2cc_engines_general(1, 195)
+	template_2cc_engines_general(1, 193)
 }
 
 //Switch for B-unit
