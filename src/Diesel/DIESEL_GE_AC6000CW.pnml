@@ -31,9 +31,9 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_AC6000CW_ALLBLACK_position, position_
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_ALLBLACK) {
     property {
-        name: 							string(STR_NAME_DIESEL_GE_AC6000CW);
+        name: 							string(STR_NAME_DIESEL_GE_AC6000CW_ALLBLACK);
 		
         introduction_date: 				date(1995,1,1);
 			
@@ -86,7 +86,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 	
 	graphics {
-		additional_text:	string(STR_TEXT_DIESEL_GE_AC6000CW);
+		additional_text:	string(STR_TEXT_DIESEL_GE_AC6000CW_ALLBLACK);
 		purchase: 			spriteset_DIESEL_GE_AC6000CW_ALLBLACK_purchase;
 							switch_DIESEL_GE_AC6000CW_ALLBLACK_position;
 	}
@@ -125,9 +125,9 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_AC6000CW_FICT1_position, position_in_
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_FICT1) {
     property {
-        name: 							string(STR_NAME_DIESEL_GE_AC6000CW);
+        name: 							string(STR_NAME_DIESEL_GE_AC6000CW_FICT1);
 		
         introduction_date: 				date(1995,1,1);
 			
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 	
 	graphics {
-		additional_text:	string(STR_TEXT_DIESEL_GE_AC6000CW);
+		additional_text:	string(STR_TEXT_DIESEL_GE_AC6000CW_FICT1);
 		purchase: 			spriteset_DIESEL_GE_AC6000CW_FICT1_purchase;
 							switch_DIESEL_GE_AC6000CW_FICT1_position;
 	}
