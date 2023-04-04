@@ -1,6 +1,6 @@
 [< Back](./README.md)
 
-### 0.3.0
+### 0.3.0 (2023-04-04)
 * Added one SD75I livery:
    * Monocolor - primary color background with white train number
 * ES40DC:
