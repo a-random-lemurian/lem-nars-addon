@@ -12,6 +12,8 @@
    * All-Black - completely black background, no logos
    * Generic 1: Secondary color blob on primary color background.
       * Try yellow on dark green for an SNIM-like train.
+* Added All-Black livery to AC6000CW
+* Added Fictional 1 livery to AC6000CW
 
 ### 0.2.0 (2023-03-26)
 * Added three SD70ACe liveries:
