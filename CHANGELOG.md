@@ -1,5 +1,8 @@
 [< Back](./README.md)
 
+### 0.4.0
+* Added Generic 1 livery for the Great Northern W1
+
 ### 0.3.0 (2023-04-04)
 * Added one SD75I livery:
    * Monocolor - primary color background with white train number
