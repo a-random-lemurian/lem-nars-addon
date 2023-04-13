@@ -31,7 +31,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_U28C_ALLBLACK_position, position_in_v
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_ALLBLACK) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_ALLBLACK, 9001) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_U28C_ALLBLACK);
 		
@@ -125,7 +125,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_U28C_FICT1_position, position_in_vehi
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_FICT1) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_FICT1, 9000) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_U28C_FICT1);
 		
