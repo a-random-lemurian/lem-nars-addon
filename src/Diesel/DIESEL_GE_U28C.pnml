@@ -98,7 +98,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_ALLBLACK) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
 spriteset(spriteset_DIESEL_GE_U28C_FICT1_purchase, "gfx/Diesel/DIESEL_GE_U28C.png") {
-	template_purchase(1, 144)
+	template_purchase(1, 227)
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -107,12 +107,12 @@ spriteset(spriteset_DIESEL_GE_U28C_FICT1_purchase, "gfx/Diesel/DIESEL_GE_U28C.pn
 
 //Engine
 spriteset(spriteset_DIESEL_GE_U28C_FICT1_engine, "gfx/Diesel/DIESEL_GE_U28C.png") {
-	template_2cc_engines_general(1, 81)
+	template_2cc_engines_general(1, 164)
 }
 
 //B-unit
 spriteset(spriteset_DIESEL_GE_U28C_FICT1_B, "gfx/Diesel/DIESEL_GE_U28C.png") {
-	template_2cc_engines_general(1, 112)
+	template_2cc_engines_general(1, 195)
 }
 
 //Switch for B-unit
