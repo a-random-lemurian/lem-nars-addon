@@ -96,11 +96,11 @@ STR_TEXT_DIESEL_GE_AC6000CW_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage 
 STR_NAME_DIESEL_GE_AC6000CW_FICT1			:GE AC6000CW (Diesel)
 STR_TEXT_DIESEL_GE_AC6000CW_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}Second most powerful single unit diesel in N.America
 
-STR_NAME_DIESEL_GE_U28B_ALLBLACK				:GE U28B (Diesel)
-STR_TEXT_DIESEL_GE_U28B_ALLBLACK				:Livery : {GOLD}n/a {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal B Series
+STR_NAME_DIESEL_GE_U28C_ALLBLACK				:GE U28C (Diesel)
+STR_TEXT_DIESEL_GE_U28C_ALLBLACK				:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal C Series
 
-STR_NAME_DIESEL_GE_U28B_FICT1				:GE U28B (Diesel)
-STR_TEXT_DIESEL_GE_U28B_FICT1				:Livery : {GOLD}n/a {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal B Series
+STR_NAME_DIESEL_GE_U28C_FICT1				:GE U28C (Diesel)
+STR_TEXT_DIESEL_GE_U28C_FICT1				:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal C Series
 
 STR_NAME_ELECTRIC_GN_W1_GENERIC1							:Great Northern W1 (Electric)
 STR_TEXT_ELECTRIC_GN_W1_GENERIC1							:Livery : {GOLD}Generic 1 {}{BLACK}Usage :  {GOLD}Fast Passenger or Freight{}{LTBLUE}Built to tackle the Cascade Mountains
