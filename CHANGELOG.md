@@ -1,5 +1,8 @@
 [< Back](./README.md)
 
+### 0.4.0
+* Added All-Black and Fictional 1 livery to U28C
+
 ### 0.3.0 (2023-04-04)
 * Added one SD75I livery:
    * Monocolor - primary color background with white train number
