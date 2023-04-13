@@ -1,0 +1,49 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//Railtype translation table
+//This set uses the default labels and adds Metro-vehicles. 
+//---------------------------------------------------------
+
+railtypetable {
+
+//	NON-ELECTRIFIED RAILTYPES
+//	=========================
+    RAIL,
+
+
+//	NON-ELECTRIFIED RAILTYPES
+//	=========================
+	ELRL,
+
+
+//	MONORAIL
+//	========
+	MONO,
+
+
+//	MAGLEV TRACK
+//	============
+	MGLV,
+
+
+//	NON-ELECTRIFIED NARROW GAUGE
+//	============================
+	NGRL: [NAAN, RAIL], // Narrow Gauge, Falls back to RAIL.
+
+
+//	ELECTRIFIED NARROW GAUGE
+//	========================
+	ELNG: [NAAE, ELRL], // Electrified Narrow Gauge, falls back to El. Rail
+
+
+//	THIRD RAIL/METRO RAILS
+//	======================
+	MTRO: [SAA3, SBA3, SCA3, SDA3, "3RDR", "3RDC", MTRO, ELRL] // fall back to Electric Rail if no metro/3rd tracks are available
+
+}
