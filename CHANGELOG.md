@@ -1,6 +1,6 @@
 [< Back](./README.md)
 
-### 0.4.0
+### 0.4.0 (2023-04-20)
 * Added All-Black and Fictional 1 livery to U28C
 * Added Generic 1 livery for the Great Northern W1
 * Redrew Fictional 1 livery for SD70ACe - made the train black, not gray
