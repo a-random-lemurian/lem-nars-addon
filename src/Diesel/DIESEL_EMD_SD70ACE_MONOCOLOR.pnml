@@ -286,3 +286,97 @@ item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE_FICT2) {
 							switch_DIESEL_EMD_SD70ACE_FICT2_position;
 	}
 }
+
+////////////////// LIVERY 4: ALL-BLACK //////////////////////////////////////
+// Black background, no decals; train number in yellow
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	PURCHASE SPRITE
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
+
+spriteset(spriteset_DIESEL_EMD_SD70ACE_ALLBLACK_purchase, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
+	template_purchase(1, 383)
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	VEHICLE SPRITE(S)
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+//Engine
+spriteset(spriteset_DIESEL_EMD_SD70ACE_engine_ALLBLACK, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
+	template_2cc_engines_general(1, 323)
+}
+
+//B-unit
+spriteset(spriteset_DIESEL_EMD_SD70ACE_B_ALLBLACK, "gfx/Diesel/DIESEL_EMD_SD70ACE.png") {
+	template_2cc_engines_general(1, 354)
+}
+
+//Switch for B-unit
+switch(FEAT_TRAINS, SELF, switch_DIESEL_EMD_SD70ACE_ALLBLACK_position, position_in_vehid_chain % 2) {
+	1: 	spriteset_DIESEL_EMD_SD70ACE_B_ALLBLACK;
+		spriteset_DIESEL_EMD_SD70ACE_engine_ALLBLACK;
+}
+
+item(FEAT_TRAINS, ITEM_DIESEL_EMD_SD70ACE_ALLBLACK, 9003) {
+    property {
+        name: 							string(STR_NAME_DIESEL_EMD_SD70ACE_ALLBLACK);
+		
+        introduction_date: 				date(2004,1,1);
+			
+		// Availability, Class and Railtype
+		// -------------------------------------------------
+		climates_available: 			ALL_CLIMATES;
+	    running_cost_base: 				RUNNING_COST_DIESEL;
+        engine_class: 					ENGINE_CLASS_DIESEL;
+		track_type: 					RAIL;
+		
+		// Life
+		// --------------------------------
+        model_life: 					25;
+        vehicle_life: 					40;
+		
+		// Costs
+		// --------------------------------
+        cost_factor: 					23;
+		running_cost_factor: 			170;
+		
+		// The Good Stuff
+		// --------------------------------------
+        speed: 							120 km/h;
+        power:							4300 hp;
+        cargo_capacity: 				0;
+        weight: 						185000 kg;
+
+		tractive_effort_coefficient: 	0.38;
+        air_drag_coefficient: 			0;
+        
+        reliability_decay: 				20;
+        cargo_age_period: 				185;
+		
+        misc_flags: 					bitmask(TRAIN_FLAG_2CC);
+        refit_cost: 					0;
+        
+		ai_special_flag: 				AI_FLAG_CARGO;
+		
+        visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
+
+        sprite_id: 						SPRITE_ID_NEW_TRAIN;
+        dual_headed: 					0;
+        length: 						8;
+        extra_power_per_wagon:			0;
+        bitmask_vehicle_info: 			0;
+
+//		variant_group:					2132;
+	}
+	
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	GRAPHICS AND SWITCHES
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
+	
+	graphics {
+		additional_text:	string(STR_TEXT_DIESEL_EMD_SD70ACE_ALLBLACK);
+		purchase: 			spriteset_DIESEL_EMD_SD70ACE_ALLBLACK_purchase;
+							switch_DIESEL_EMD_SD70ACE_ALLBLACK_position;
+	}
+}

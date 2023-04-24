@@ -1,0 +1,116 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+// Copyright (C) 2023 Lemuria,
+// Who just used find and replace to change all the variable names for the
+// new livery
+
+/*
+ * Generic 1: Two blobs of secondary color text on primary color background
+ */
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	PURCHASE SPRITE
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+spriteset(spriteset_ELECTRIC_GN_W1_GENERIC1_purchase, "gfx/Electric/ELECTRIC_GN_W1.png") {
+	template_purchase(1, 277)
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	VEHICLE SPRITE(S)
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+// 	This vehicle uses the template for length 10.
+//	The vehicle is built with 3 pieces of length 3+4+3
+//	The middle part gets the graphics, the other parts are left blank
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+//Engine
+spriteset(spriteset_ELECTRIC_GN_W1_GENERIC1_engine, "gfx/Electric/ELECTRIC_GN_W1.png") {
+	template_2cc_L12(1, 150)
+}
+
+
+switch(FEAT_TRAINS, SELF, switch_ELECTRIC_GN_W1_GENERIC1_position, position_in_vehid_chain % 2) {
+	0: spriteset_ELECTRIC_GN_W1_GENERIC1_engine;
+	EMPTY_SPRITESET
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	VISUAL EFFECT
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+switch(FEAT_TRAINS, SELF, switch_ELECTRIC_GN_W1_GENERIC1_visual_effect, position_in_vehid_chain % 2) {
+	0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_ELECTRIC_GN_W1_GENERIC1_length, position_in_vehid_chain % 2) {
+	0: 8;
+	2;
+}
+
+switch(FEAT_TRAINS, SELF, switch_ELECTRIC_GN_W1_GENERIC1_articulated, extra_callback_info1) {
+	1: return ITEM_ELECTRIC_GN_W1_GENERIC1;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	ITEM CODE
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+item(FEAT_TRAINS, ITEM_ELECTRIC_GN_W1_GENERIC1) {
+    property {
+        name: 							string(STR_NAME_ELECTRIC_GN_W1_GENERIC1);
+
+		climates_available: 			ALL_CLIMATES;
+		engine_class: 					ENGINE_CLASS_ELECTRIC;
+		running_cost_base: 				RUNNING_COST_DIESEL;
+		
+        introduction_date: 				date(1947,1,1);
+        model_life: 					35;
+        vehicle_life: 					40;
+
+        cost_factor: 					30;
+        running_cost_factor: 			222;
+		
+        speed: 							128 km/h;
+        power: 							5000 hp;
+        cargo_capacity: 				0;
+        weight: 						326000kg;
+        tractive_effort_coefficient:	0.165;
+        air_drag_coefficient: 			0;
+        
+        reliability_decay: 				20;
+        CARGODEF_NONE
+        cargo_age_period: 				185;
+        misc_flags: 					bitmask(TRAIN_FLAG_2CC);
+        refit_cost: 					0;
+        track_type: 					ELRL;
+		ai_special_flag: 				AI_FLAG_PASSENGER;
+        visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
+
+        sprite_id: 						SPRITE_ID_NEW_TRAIN;
+        dual_headed: 					0;
+        length: 						8;
+        extra_power_per_wagon: 			0;
+        bitmask_vehicle_info: 			0;
+	}
+	
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	GRAPHICS AND SWITCHES
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+	
+	graphics {
+		purchase: 					spriteset_ELECTRIC_GN_W1_GENERIC1_purchase;
+		additional_text: 			string(STR_TEXT_ELECTRIC_GN_W1_GENERIC1);
+		visual_effect_and_powered: 	switch_ELECTRIC_GN_W1_GENERIC1_visual_effect;
+		length: 					switch_ELECTRIC_GN_W1_GENERIC1_length;
+		articulated_part: 			switch_ELECTRIC_GN_W1_GENERIC1_articulated;
+									switch_ELECTRIC_GN_W1_GENERIC1_position;
+	}
+}

@@ -68,6 +68,9 @@ STR_TEXT_DIESEL_EMD_SD70ACE_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :
 STR_NAME_DIESEL_EMD_SD70ACE_FICT2			:EMD SD70ACe (Diesel)
 STR_TEXT_DIESEL_EMD_SD70ACE_FICT2			:Livery : {GOLD}Fictional 2 {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}An updated modern version of the EMD SD70MAC
 
+STR_NAME_DIESEL_EMD_SD70ACE_ALLBLACK			:EMD SD70ACe (Diesel)
+STR_TEXT_DIESEL_EMD_SD70ACE_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}An updated modern version of the EMD SD70MAC
+
 STR_NAME_DIESEL_EMD_SDP40_ALLBLACK			:EMD SDP40 (Diesel)
 STR_TEXT_DIESEL_EMD_SDP40_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}Fast Passenger {}{LTBLUE}Passenger version of the EMD SD40
 
@@ -95,3 +98,12 @@ STR_TEXT_DIESEL_GE_AC6000CW_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage 
 
 STR_NAME_DIESEL_GE_AC6000CW_FICT1			:GE AC6000CW (Diesel)
 STR_TEXT_DIESEL_GE_AC6000CW_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}Second most powerful single unit diesel in N.America
+
+STR_NAME_DIESEL_GE_U28C_ALLBLACK				:GE U28C (Diesel)
+STR_TEXT_DIESEL_GE_U28C_ALLBLACK				:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal C Series
+
+STR_NAME_DIESEL_GE_U28C_FICT1				:GE U28C (Diesel)
+STR_TEXT_DIESEL_GE_U28C_FICT1				:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal C Series
+
+STR_NAME_ELECTRIC_GN_W1_GENERIC1							:Great Northern W1 (Electric)
+STR_TEXT_ELECTRIC_GN_W1_GENERIC1							:Livery : {GOLD}Generic 1 {}{BLACK}Usage :  {GOLD}Fast Passenger or Freight{}{LTBLUE}Built to tackle the Cascade Mountains
