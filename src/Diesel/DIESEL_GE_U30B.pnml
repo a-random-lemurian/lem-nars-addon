@@ -99,7 +99,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_U30B_ALLBLACK, 9007) {
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
 
 spriteset(spriteset_DIESEL_GE_U30B_FICT2_purchase, "gfx/Diesel/DIESEL_GE_U30B.png") {
-	template_purchase(1, 227)
+	template_purchase(1, 226)
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
