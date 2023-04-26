@@ -10,4 +10,5 @@ disable_item(FEAT_TRAINS);
 #include "src/Diesel/DIESEL_GMD_SD75I.pnml"
 #include "src/Diesel/DIESEL_GE_AC6000CW.pnml"
 #include "src/Diesel/DIESEL_GE_U28C.pnml"
+#include "src/Diesel/DIESEL_GE_U30B.pnml"
 #include "src/Electric/ELECTRIC_GN_W1.pnml"
