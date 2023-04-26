@@ -1,4 +1,4 @@
-﻿##grflangid 0x01
+##grflangid 0x01
 
 #	NBSP	non-breaking space	
 #	{	Display a left curly bracket. You write this as {{}. If you'd include it without surrounding it by { and } it'd be seen as the start of a tag and the rest of the string would be read as name of the tag.	
@@ -91,6 +91,9 @@ STR_TEXT_DIESEL_GE_ES40DC_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage : 
 
 STR_NAME_DIESEL_GE_U30B_ALLBLACK				:GE U30B (Diesel)
 STR_TEXT_DIESEL_GE_U30B_ALLBLACK				:Livery : {GOLD}All-Black {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal B Series
+
+STR_NAME_DIESEL_GE_U30B_FICT2				:GE U30B (Diesel)
+STR_TEXT_DIESEL_GE_U30B_FICT2				:Livery : {GOLD}Fictional 2 {}{BLACK}Usage :  {GOLD}General Freight {}{LTBLUE}Part of the Universal B Series
 
 STR_NAME_DIESEL_GE_ES40DC_FICT1			:GE ES40DC (Diesel)
 STR_TEXT_DIESEL_GE_ES40DC_FICT1			:Livery : {GOLD}Fictional 1 {}{BLACK}Usage :  {GOLD}Heavy Freight {}{LTBLUE}First in a series of environmentally friendly locomotives
