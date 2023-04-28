@@ -5,6 +5,8 @@
 * Fixed missing couplers on SD70ACe (all liveries) and SD40
 * Removed an odd pixel in SD40 Generic 1 Sprite
 * Added All-Black livery to SDP45
+* Added two extra liveries to Cylindrical Hopper:
+   * Monocolor, Lemurian Rail Corporation
 
 ### 0.4.0 (2023-04-20)
 * Added All-Black and Fictional 1 livery to U28C
