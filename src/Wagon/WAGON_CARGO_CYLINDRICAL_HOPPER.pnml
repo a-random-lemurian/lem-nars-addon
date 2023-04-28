@@ -1,0 +1,194 @@
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	PURCHASE SPRITE
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
+
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_purchase, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_purchase(1, 105)
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	VEHICLE SPRITE(S)
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+// 	LIVERY 1
+// 	=====================================
+
+//Livery 1 - Loading State 1
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S1, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Livery 1 - Loading State 2
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S2, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Livery 1 - Loading State 3
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S3, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Livery 1 Spritegroup
+spritegroup spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L1 {
+	loading: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S3];
+	loaded: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L1_S3];
+}
+
+// 	LIVERY 2
+// 	=====================================
+
+//Livery 2 - Loading State 1
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S1, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 2 - Loading State 2
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S2, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(179, 32)
+}
+
+//Livery 2 - Loading State 3
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S3, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(179, 64)
+}
+
+//Livery 2 Spritegroup
+spritegroup spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L2 {
+	loading: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S3];
+	loaded: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L2_S3];	
+}
+
+// 	LIVERY 3
+// 	=====================================
+
+//Livery 3 - Loading State 1
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S1, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 3 - Loading State 2
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S2, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(357, 32)
+}
+
+//Livery 3 - Loading State 3
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S3, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(357, 64)
+}
+
+//Livery 3 Spritegroup
+spritegroup spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L3 {
+	loading: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S3];
+	loaded: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L3_S3];	
+}
+
+// 	LIVERY 4
+// 	=====================================
+
+//Livery 4 - Loading State 1
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S1, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(535, 1)
+}
+
+//Livery 4 - Loading State 2
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S2, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(535, 32)
+}
+
+//Livery 4 - Loading State 3
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S3, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(535, 64)
+}
+
+//Livery 4 Spritegroup
+spritegroup spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L4 {
+	loading: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S3];
+	loaded: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L4_S3];	
+}
+
+// RANDOM SPRITES!
+// =====================================
+
+random_switch(FEAT_TRAINS, SELF, switch_WAGON_CARGO_CYLINDRICAL_HOPPER_livery) {
+	5: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L1;
+	3: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L2;
+	1: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L3;
+	2: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L4;
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	CARGO CONFORMITY (FOR WAGONS WITH GOODS)
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+switch 	(FEAT_TRAINS, SELF, WAGON_CARGO_CYLINDRICAL_HOPPER_switch_cargo_capacity, cargo_classes & bitmask(CC_PIECE_GOODS, CC_PASSENGERS, CC_MAIL, CC_ARMOURED)) {
+		bitmask(CC_PASSENGERS): 	return	40;
+		bitmask(CC_MAIL): 			return	40;
+		bitmask(CC_ARMOURED): 		return 	40;
+		bitmask(CC_PIECE_GOODS): 	return 	40;		
+        return 40;
+}
+
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	ITEM CODE
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+item(FEAT_TRAINS, ITEM_WAGON_CARGO_CYLINDRICAL_HOPPER) {
+    property {
+        name: 							string(STR_NAME_WAGON_CARGO_CYLINDRICAL_HOPPER);
+
+		// Date and Life Span
+		// --------------------------------------------
+        introduction_date: 				date(1960,1,1);
+		
+		model_life:						 0;
+        vehicle_life: 					25;
+		
+		// Availability, Class and Railtype
+		// -------------------------------------------------
+		climates_available: 			ALL_CLIMATES;
+	    running_cost_base: 				RUNNING_COST_DIESEL;
+        engine_class: 					ENGINE_CLASS_DIESEL;
+		track_type: 					RAIL;
+		
+		cargo_capacity: 				40;
+		CARGODEF_SILO
+		LOADINGSPEEDDEF_CARGO
+		default_cargo_type:				GRAI;
+		
+        cost_factor: 					90;
+        running_cost_factor: 			2;
+		
+        speed: 							128 km/h;
+        power: 							0 hp;        
+        weight: 						30000 kg;
+		
+        tractive_effort_coefficient:	0.3;
+        air_drag_coefficient: 			0;
+        
+        reliability_decay: 				20;
+        
+        cargo_age_period: 				185;
+        misc_flags: 					bitmask(TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
+        refit_cost:						0;
+		ai_special_flag: 				AI_FLAG_CARGO;
+        visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+        
+        sprite_id: 						SPRITE_ID_NEW_TRAIN;
+        dual_headed: 					0;
+        length: 						7;
+        extra_power_per_wagon:			0;
+        bitmask_vehicle_info: 			0;
+	}
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+//	GRAPHICS AND SWITCHES
+//	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■	
+	
+	graphics {
+		additional_text:	string(STR_TEXT_WAGON_CARGO_CYLINDRICAL_HOPPER);
+		purchase: 			spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_purchase;
+		cargo_capacity:                 WAGON_CARGO_CYLINDRICAL_HOPPER_switch_cargo_capacity;
+        purchase_cargo_capacity:        WAGON_CARGO_CYLINDRICAL_HOPPER_switch_cargo_capacity;
+							switch_WAGON_CARGO_CYLINDRICAL_HOPPER_livery;
+	}
+}
