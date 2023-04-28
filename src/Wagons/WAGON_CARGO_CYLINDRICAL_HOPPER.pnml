@@ -132,6 +132,31 @@ spritegroup spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L5 {
 }
 
 
+// 	LIVERY 6: Lemurian Rail Corporation
+// 	====================================================
+
+//Livery 6 - Loading State 1
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S1, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(179, 123)
+}
+
+//Livery 6 - Loading State 2
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S2, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(179, 154)
+}
+
+//Livery 6 - Loading State 3
+spriteset(spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S3, "gfx/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.png") {
+	template_2cc_wagons(179, 186)
+}
+
+//Livery 6 Spritegroup
+spritegroup spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L6 {
+	loading: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S3];
+	loaded: [spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S1, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S2, spriteset_WAGON_CARGO_CYLINDRICAL_HOPPER_L6_S3];	
+}
+
+
 // RANDOM SPRITES!
 // =====================================
 
@@ -141,6 +166,7 @@ random_switch(FEAT_TRAINS, SELF, switch_WAGON_CARGO_CYLINDRICAL_HOPPER_livery) {
 	1: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L3;
 	2: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L4;
 	1: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L5;
+	4: spritegroup_WAGON_CARGO_CYLINDRICAL_HOPPER_L6;
 }
 
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
