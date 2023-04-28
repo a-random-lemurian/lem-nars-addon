@@ -15,3 +15,4 @@ disable_item(FEAT_TRAINS);
 #include "src/Diesel/DIESEL_GE_U28C.pnml"
 #include "src/Diesel/DIESEL_GE_U30B.pnml"
 #include "src/Electric/ELECTRIC_GN_W1.pnml"
+#include "src/Wagons/WAGON_CARGO_CYLINDRICAL_HOPPER.pnml"
