@@ -2,6 +2,8 @@
 
 ### 0.5.0
 * Redrew All-Black livery for SDP40
+* Fixed missing couplers on SD70ACe (all liveries) and SD40
+* Removed an odd pixel in SD40 Generic 1 Sprite
 
 ### 0.4.0 (2023-04-20)
 * Added All-Black and Fictional 1 livery to U28C
