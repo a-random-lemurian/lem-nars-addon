@@ -146,5 +146,5 @@ STR_TEXT_DIESEL_EMD_SDP45_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage : 
 
 
 STR_NAME_WAGON_CARGO_CYLINDRICAL_HOPPER		:Cylindrical Hopper ({LTBLUE}Lemurian{BLACK})
-STR_TEXT_WAGON_CARGO_CYLINDRICAL_HOPPER		:Livery : {GOLD}Multiple (5) {}{BLACK}Designed : {GOLD}1988 {}{LTBLUE}Most popular on Canadian Railroads {}Contains extra liveries!
+STR_TEXT_WAGON_CARGO_CYLINDRICAL_HOPPER		:Livery : {GOLD}Multiple (6) {}{BLACK}Designed : {GOLD}1988 {}{LTBLUE}Most popular on Canadian Railroads {}Contains extra liveries!
 
