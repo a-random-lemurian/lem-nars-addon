@@ -115,3 +115,14 @@ STR_TEXT_ELECTRIC_GN_W1_GENERIC1							:Livery : {GOLD}Generic 1 {}{BLACK}Usage 
 
 STR_NAME_DIESEL_EMD_SDP45_ALLBLACK			:EMD SDP45 (Diesel)
 STR_TEXT_DIESEL_EMD_SDP45_ALLBLACK			:Livery : {GOLD}All-Black {}{BLACK}Usage : Fast Passenger {GOLD}Fast Passenger {}{LTBLUE}Passenger version of the EMD SD40
+
+
+
+
+
+
+
+
+STR_NAME_WAGON_CARGO_CYLINDRICAL_HOPPER		:{LTBLUE}Lemurian {}Cylindrical Hopper
+STR_TEXT_WAGON_CARGO_CYLINDRICAL_HOPPER		:Livery : {GOLD}Multiple (5) {}{BLACK}Designed : {GOLD}1988 {}{LTBLUE}Most popular on Canadian Railroads {}Contains extra liveries!
+
