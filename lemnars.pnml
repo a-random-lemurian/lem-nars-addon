@@ -2,6 +2,7 @@ disable_item(FEAT_TRAINS);
 #include "src/Code/header.pnml"
 #include "src/Code/templates.pnml"
 #include "src/Code/cargorefits.pnml"
+#include "src/Code/loadingspeeds.pnml"
 #include "src/Code/railtypetable.pnml"
 #include "src/Diesel/DIESEL_EMD_SD70ACE_MONOCOLOR.pnml"
 #include "src/Diesel/DIESEL_EMD_SDP40.pnml"
