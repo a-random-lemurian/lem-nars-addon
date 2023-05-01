@@ -6,6 +6,7 @@
 * Removed an odd pixel in SD40 Generic 1 Sprite
 * Added All-Black livery to SDP45
 * Added Fictional 2 livery to SDP45
+* Redrew Monocolor livery for SD70ACe
 * Added two extra liveries to Cylindrical Hopper:
    * Monocolor, Lemurian Rail Corporation
 
