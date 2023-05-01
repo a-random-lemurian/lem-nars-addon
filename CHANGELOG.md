@@ -7,6 +7,7 @@
 * Added All-Black livery to SDP45
 * Added Fictional 2 livery to SDP45
 * Redrew Monocolor livery for SD70ACe
+* Redrew Fictional 2 livery for SD70ACe
 * Added two extra liveries to Cylindrical Hopper:
    * Monocolor, Lemurian Rail Corporation
 
