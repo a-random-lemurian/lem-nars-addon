@@ -79,6 +79,8 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_ALLBLACK, 9001) {
         length: 						8;
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
+
+		variant_group: 9000
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -174,7 +176,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_U28C_FICT1, 9000) {
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
 
-		variant_group: 9001
+		variant_group: 9000
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
