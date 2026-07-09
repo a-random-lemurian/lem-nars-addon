@@ -31,7 +31,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_ES40DC_MONOCOLOR_position, position_i
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_MONOCOLOR, 120001) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_MONOCOLOR, 20001) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_ES40DC_MONOCOLOR);
 		
@@ -80,7 +80,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_MONOCOLOR, 120001) {
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
 
-		variant_group:                  120003;
+		variant_group:                  20003;
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -127,7 +127,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_ES40DC_ALLBLACK_position, position_in
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_ALLBLACK, 120002) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_ALLBLACK, 20002) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_ES40DC_ALLBLACK);
 		
@@ -176,7 +176,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_ALLBLACK, 120002) {
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
 
-		variant_group:                  120003;
+		variant_group:                  20003;
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -223,7 +223,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_ES40DC_FICT1_position, position_in_ve
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_FICT1, 120003) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_FICT1, 20003) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_ES40DC_FICT1);
 		
@@ -272,7 +272,7 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_ES40DC_FICT1, 120003) {
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
 		
-		variant_group:                  120003;
+		variant_group:                  20003;
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
