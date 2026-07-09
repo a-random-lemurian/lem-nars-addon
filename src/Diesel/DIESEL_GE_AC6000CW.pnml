@@ -31,7 +31,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_AC6000CW_ALLBLACK_position, position_
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_ALLBLACK) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_ALLBLACK, 3001) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_AC6000CW_ALLBLACK);
 		
@@ -79,6 +79,8 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_ALLBLACK) {
         length: 						8;
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
+
+		variant_group: 3000;
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -125,7 +127,7 @@ switch(FEAT_TRAINS, SELF, switch_DIESEL_GE_AC6000CW_FICT1_position, position_in_
 //	ITEM CODE
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_FICT1) {
+item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_FICT1, 3000) {
     property {
         name: 							string(STR_NAME_DIESEL_GE_AC6000CW_FICT1);
 		
@@ -173,6 +175,8 @@ item(FEAT_TRAINS, ITEM_DIESEL_GE_AC6000CW_FICT1) {
         length: 						8;
         extra_power_per_wagon:			0;
         bitmask_vehicle_info: 			0;
+
+		variant_group: 3000;
 	}
 	
 //	■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
