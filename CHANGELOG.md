@@ -1,6 +1,7 @@
 [< Back](./README.md)
 
 ### 0.5.0
+* Fix stray blue pixel on ES40DC All Black
 * Organized some of the locos into new variant groups
 * Added Union Pacific American flag livery to SD70ACe
 * Added Lemurian Rail Corporation livery (logo on white background) to ES40DC
