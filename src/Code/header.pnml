@@ -2,7 +2,7 @@ grf{
 	grfid: "LNSA" ;
 	name: string(STR_GRF_NAME) ;
 	desc: string(STR_GRF_DESC) ;
-	version: 51000400 ; //51: legacy; major: 00 ; minor: 04 ; patch: 00
+	version: 51000500 ; //51: legacy; major: 00 ; minor: 05 ; patch: 00
 	min_compatible_version: 50 ;
     param {
         param_purchase_cost {
